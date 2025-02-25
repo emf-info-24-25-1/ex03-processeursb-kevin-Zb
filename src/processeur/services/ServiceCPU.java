@@ -17,7 +17,7 @@ public class ServiceCPU {
     /**
      * Constantes indiquant le nombre maximum de CPUs que peut contenir notre liste.
      */
-    // VOTRE CODE ICI...
+    public static final int 
 
     /**
      * Attribut contenant le tableau des CPUs.
@@ -67,7 +67,11 @@ public class ServiceCPU {
      * @return le nombre de CPUs contenus dans notre liste
      */
     public int nombreDeCPUDansLaListe() {
-        // VOTRE CODE ICI...
+        int nbreCpu = 0;
+        for (int i = 0; i < c ; i++) {
+            
+        }
+        return ;
     }
 
     /**
@@ -78,7 +82,7 @@ public class ServiceCPU {
      * @return la taille de la liste de CPU
      */
     public int tailleDeLaListe() {
-        // VOTRE CODE ICI...
+        return this.tailleDeLaListe();
     }
 
     /**
@@ -99,8 +103,8 @@ public class ServiceCPU {
      * @return la référence au contrôleur de l'application MVC "Processeur"
      */
     public Controller getRefCtrl() {
-        // VOTRE CODE ICI...
-    }
+        
+    }// VOTRE CODE ICI...
 
     /**
      * Setter de la référence au contrôleur de l'application MVC "Processeur".

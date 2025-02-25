@@ -20,7 +20,7 @@ public class Processeur {
      * @param args les arguments du programme passés sur la ligne de commande
      */
     public static void main(String[] args ) {
-        // VOTRE CODE ICI...
+        Controller controller = new Controller();
     }
 
 }
